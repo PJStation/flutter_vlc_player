@@ -15,12 +15,16 @@ flutter:
         pluginClass: FlutterVlcPlayerPlugin
       ios:
         pluginClass: FlutterVlcPlayerPlugin
+      macos:
+        pluginClass: FlutterVlcPlayerPlugin
 
 dependencies:
   flutter:
     sdk: flutter
 
-  flutter_vlc_player_platform_interface: ^2.0.5
+  flutter_vlc_player_platform_interface:
+    path: ../flutter_vlc_player_platform_interface/
+
   meta: ^1.8.0
 
 dev_dependencies:

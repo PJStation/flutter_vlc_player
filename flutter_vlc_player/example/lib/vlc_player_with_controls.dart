@@ -365,7 +365,9 @@ class VlcPlayerWithControlsState extends State<VlcPlayerWithControls> {
                   icon: const Icon(Icons.fullscreen),
                   color: Colors.white,
                   // ignore: no_empty_block
-                  onPressed: () {},
+                  onPressed: () {
+
+                  },
                 ),
               ],
             ),
